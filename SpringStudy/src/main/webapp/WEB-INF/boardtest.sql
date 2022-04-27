@@ -1,0 +1,8 @@
+CREATE TABLE boardtest(
+idx int AUTO_INCREMENT PRIMARY KEY,
+writer VARCHAR(20) NOT NULL,
+title VARCHAR(30) NOT NULL,
+content TEXT NOT NULL,
+reg_date DATE NOT NULL,
+cnt int default 0
+) DEFAULT CHARSET=utf8 ;
